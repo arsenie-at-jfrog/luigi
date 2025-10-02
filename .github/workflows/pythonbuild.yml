@@ -20,7 +20,7 @@ jobs:
           - tox-env: py312-core
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up the latest version of uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -75,7 +75,7 @@ jobs:
           - tox-env: py312-postgres
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up the latest version of uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -139,7 +139,7 @@ jobs:
           - tox-env: py312-azureblob
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up the latest version of uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -169,7 +169,7 @@ jobs:
           - tox-env: flake8
           - tox-env: docs
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up the latest version of uv
         uses: astral-sh/setup-uv@v5
         with:
